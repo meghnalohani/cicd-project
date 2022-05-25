@@ -22,7 +22,7 @@ jobs:
   # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
   create-infrastructure:
     docker:
-      - image: amazom=n/aws-cli
+      - image: amazon/aws-cli
     steps:
       - checkout
       - run:
