@@ -30,7 +30,7 @@
     state: directory
 - name: Copy index test page
   template:
-    src: "files/index.js"
+    src: "index.js"
     dest: "./web/index.js"
 - name: Executing node
   shell: |
